@@ -7,12 +7,13 @@ object AppDependencies {
   private val circeVersion = "0.12.0"
 
   val compile = Seq(
-    "uk.gov.hmrc" %% "bootstrap-frontend-play-28" % "5.6.0",
-    "uk.gov.hmrc" %% "play-frontend-hmrc"         % "0.82.0-play-28",
-    "io.circe"    %% "circe-core"                 % circeVersion,
-    "io.circe"    %% "circe-generic"              % circeVersion,
-    "io.circe"    %% "circe-parser"               % circeVersion,
-    "io.circe"    %% "circe-yaml"                 % circeVersion
+    "uk.gov.hmrc" %% "bootstrap-frontend-play-28"     % "5.6.0",
+    "uk.gov.hmrc" %% "play-frontend-hmrc"             % "0.82.0-play-28",
+    "io.circe"    %% "circe-core"                     % circeVersion,
+    "io.circe"    %% "circe-generic"                  % circeVersion,
+    "io.circe"    %% "circe-parser"                   % circeVersion,
+    "io.circe"    %% "circe-yaml"                     % circeVersion,
+    "uk.gov.hmrc" %% "scalatest-accessibility-linter" % "0.4.0"
   )
 
   val test = Seq(
